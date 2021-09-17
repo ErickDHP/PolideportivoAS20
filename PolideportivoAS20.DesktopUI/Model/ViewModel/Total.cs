@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PolideportivoAS20.DesktopUI.Model.ViewModel
+{
+    public class Total
+    {
+        [Key]
+        public int Total_id { get; set; }
+        public string total_placa { get; set; }
+        public double total_matenimiento { get; set; }
+        public double total_producto { get; set; }
+    }
+}
